@@ -31,3 +31,8 @@ public biodata = [
 {"name":"Pushpendra","age":23,"address":"Noida"},
 {"name":"Tripti","age":32,"address":"Noida"}
 ];
+---------------------------------------------------------------------------------------------
+
+<div *ngFor = "let data of biodata; index as i">
+  {{i}} {{data.name + " " + data.age + "" + " " +  data.mobile }}
+</div>
